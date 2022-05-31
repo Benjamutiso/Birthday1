@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cute_handlettered_birthday_cake_card"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:layout_width="112dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="cursive"
+        android:text="@string/turning_18"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#E91E63"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:typeface="sans"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="177dp"
+        android:layout_height="237dp"
+        app:srcCompat="@drawable/flower"
+        tools:layout_editor_absoluteX="-7dp"
+        tools:layout_editor_absoluteY="434dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="241dp"
+        android:layout_height="236dp"
+        app:srcCompat="@drawable/best_birthday_cake_with_milk_chocolate_buttercream_square_1024x1024"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="437dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="283dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="72dp"
+        android:alpha="@dimen/cardview_compat_inset_shadow"
+        android:autoText="true"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:lineSpacingExtra="20sp"
+        android:rotation="26"
+        android:rotationX="-5"
+        android:rotationY="21"
+        android:text="Happy Birthday, dear"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#039BE5"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:circularflow_angles="@string/app_name"
+        app:circularflow_viewCenter="@string/turning_18"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="389dp"
+        android:layout_height="58dp"
+        android:fontFamily="cursive"
+        android:text="THANK YOU FOR ALWAYS BEING THERE FOR ME! CANT WAIT TO CELEBRATE YOUR BIG DAY"
+        android:textColor="#2196F3"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="672dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
